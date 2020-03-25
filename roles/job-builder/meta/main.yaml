@@ -1,0 +1,2 @@
+dependencies:
+  - { role: image-builder, image: "{{ job_builder_image }}" }

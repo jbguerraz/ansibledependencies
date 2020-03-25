@@ -1,0 +1,2 @@
+- name: image builder
+  debug: msg="image builder {{ image }}"

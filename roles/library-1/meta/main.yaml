@@ -1,0 +1,2 @@
+dependencies:
+  - { role: library-builder, library: "{{ library_name }}" }

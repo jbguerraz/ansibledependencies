@@ -1,0 +1,2 @@
+- name: library builder
+  debug: msg="library builder {{ library_name }}"

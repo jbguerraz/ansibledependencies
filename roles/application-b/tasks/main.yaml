@@ -1,0 +1,2 @@
+- name: application b
+  debug: msg="application b"

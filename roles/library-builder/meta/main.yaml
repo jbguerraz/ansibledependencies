@@ -1,0 +1,3 @@
+dependencies:
+  - { role: image-builder, image: "{{ library_builder_image }}" }
+allow_duplicates: true

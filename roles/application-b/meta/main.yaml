@@ -1,0 +1,4 @@
+dependencies:
+  - role: library-1
+  - role: library-2
+  - role: job-1

@@ -1,0 +1,2 @@
+- name: library 2
+  debug: msg="library 2"
