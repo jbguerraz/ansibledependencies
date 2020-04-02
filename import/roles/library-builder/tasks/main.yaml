@@ -1,0 +1,9 @@
+- name: load image-builder dependency
+  import_role:
+    name: image-builder
+    allow_duplicates: no
+  #vars:
+    #image: "{{ library_builder_image }}"
+
+- name: library builder
+  debug: msg="library builder {{ library_name }}"

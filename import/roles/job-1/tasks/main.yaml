@@ -1,0 +1,7 @@
+- name: load job-builder dependency
+  import_role:
+    name: job-builder
+    allow_duplicates: no
+
+- name: job 1
+  debug: msg="job 1"

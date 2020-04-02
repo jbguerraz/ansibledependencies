@@ -1,0 +1,7 @@
+- name: load library-1 dependency
+  import_role:
+    name: library-1
+    allow_duplicates: no
+
+- name: application a
+  debug: msg="application a"

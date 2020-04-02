@@ -1,0 +1,4 @@
+- hosts: localhost
+  roles:
+    - application-a
+    - application-b

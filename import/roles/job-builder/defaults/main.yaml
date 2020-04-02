@@ -1,0 +1,1 @@
+job_builder_image: "{{ job_name }}:image"

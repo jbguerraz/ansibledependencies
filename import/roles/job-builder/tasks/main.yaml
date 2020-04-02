@@ -1,0 +1,9 @@
+- name: load image-builder dependency
+  import_role:
+    name: image-builder
+    allow_duplicates: no
+  #vars:
+    #image: "{{ job_builder_image }}"
+
+- name: job builder
+  debug: msg="job builder {{ job_name }}"

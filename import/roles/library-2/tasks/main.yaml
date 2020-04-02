@@ -1,0 +1,9 @@
+- name: load library-builder
+  import_role:
+    name: library-builder
+    allow_duplicates: no
+  #vars:
+    #library: "{{ library_name }}"
+
+- name: library 2
+  debug: msg="library 2"

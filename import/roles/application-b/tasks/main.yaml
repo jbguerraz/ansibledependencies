@@ -1,0 +1,17 @@
+- name: load library-1 dependency
+  import_role:
+    name: library-1
+    allow_duplicates: no
+
+- name: load library-2 dependency
+  import_role:
+    name: library-2
+    allow_duplicates: no
+
+- name: load job-1 dependency
+  import_role:
+    name: job-1
+    allow_duplicates: no
+
+- name: application b
+  debug: msg="application b"
